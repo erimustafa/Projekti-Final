@@ -20,6 +20,10 @@ html{
 	height: 100%;
 }
 
+.coinwidget{
+	margin-top: 10px;
+	}
+
 header{
 	display: flex;
 	justify-content: space-around;
