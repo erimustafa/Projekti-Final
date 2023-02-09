@@ -154,6 +154,25 @@ hr{
 	line-height: 26px;
 	color: white;
 }
+.asideimgtxt{
+	background-image: url(../img/btcimgg.png);
+	background-size: cover;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+} 
+.asideimgtxt p{
+	color: white;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+}
+
+
+
 
 #section-4{
 	background-color: #2762ba;
