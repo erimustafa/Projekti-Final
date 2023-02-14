@@ -1,8 +1,10 @@
+
 body{
 	background-color: #2762ba;
-	 font-family: Garamond, serif;
+	 font-family: Fantasy, serif;
 	 animation: transitionIn 1s;
 }
+
 
 html{
 	scroll-behavior: smooth;
@@ -183,7 +185,7 @@ hr{
 	background-color: #2762ba;
 	color: white;
 	height: 70px;
-	margin-top: 200px;
+	margin-top: 50px;
 }
 
 .copyright p{
