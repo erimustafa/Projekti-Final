@@ -1,6 +1,6 @@
 
 body{
-	background-color: #2762ba;
+	background-color: #0d0e21;
 	 font-family: Fantasy, serif;
 	 animation: transitionIn 1s;
 }
@@ -11,7 +11,7 @@ html{
 }
 
 #section-1{
-	background-color: #093880;
+	background-color: #0d0e21;
 	margin: 0;
 	border-radius: 10px 10px 0 0;
 }
@@ -23,7 +23,7 @@ html{
 }
 
 .coinwidget{
-	margin-right: 65px;
+	margin-left: 65px;
 	}
 
 header{
@@ -43,13 +43,14 @@ header img{
 nav ul li{
 	display: inline-block;
 	padding: 14px;
-	background-color: #093880;
+	background-color: #b88b32;
 	margin: 7px;
+	border-radius: 8px;
 } 
 
 nav ul li:hover{
-	background-color:#1f4a8c ;
-	border-radius: 8px;
+	background-color:#ebb852 ;
+	
 }
 
 nav ul li a{
@@ -182,7 +183,7 @@ hr{
 
 
 #section-4{
-	background-color: #2762ba;
+	background-color: #0d0e21;
 	color: white;
 	height: 70px;
 	margin-top: 50px;
@@ -246,4 +247,53 @@ hr{
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.contact {
+  max-width: 600px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #555;
+  color: #fff;
 }
