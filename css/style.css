@@ -170,9 +170,12 @@ hr{
   font-family: Verdana, Arial, sans-serif;
   font-size: 15px;
 }
-.livecoinwatch-widget-1{
-	 margin-right: 500px;
+
+.coinwidget3{
+	float: right;
+	position: relative;
 }
+
 
 
 
@@ -180,6 +183,7 @@ hr{
 	background-color: #2762ba;
 	color: white;
 	height: 70px;
+	margin-top: 200px;
 }
 
 .copyright p{
