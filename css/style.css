@@ -26,6 +26,8 @@ html{
 	margin-left: 65px;
 	}
 
+
+
 header{
 	display: flex;
 	justify-content: space-around;
@@ -178,9 +180,6 @@ hr{
 	float: right;
 	position: relative;
 }
-
-
-
 
 #section-4{
 	background-color: #0d0e21;
