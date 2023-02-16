@@ -302,3 +302,20 @@ button:hover {
   background-color: #555;
   color: #fff;
 }
+.button1 {
+
+	font-family: monospace;
+	font-size: 15px;
+	background-color:#ff9100; 
+
+}
+
+.button1:hover {
+	background-color: #0d0e21;
+	color: #ff9100;
+	font-family: monospace;
+}
+
+.button1 {
+
+}
