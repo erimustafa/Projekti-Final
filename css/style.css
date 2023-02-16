@@ -45,7 +45,7 @@ header img{
 nav ul li{
 	display: inline-block;
 	padding: 14px;
-	background-color: #fcce03;
+	background-color: #ff9100;
 	margin: 7px;
 	border-radius: 8px;
 } 
@@ -250,11 +250,14 @@ hr{
 
 .contact {
   max-width: 600px;
+
 }
 
 h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: #ff9100;
+  font-family: monospace;
 }
 
 form {
@@ -271,6 +274,8 @@ label {
   display: block;
   font-weight: lighter;
   margin-bottom: 5px;
+  font-family: monospace;
+  font-size: 17px;
 }
 
 input,
