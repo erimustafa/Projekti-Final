@@ -159,22 +159,6 @@ hr{
 	line-height: 26px;
 	color: white;
 }
-.asideimgtxt{
-	background-image: url(../img/cryptoanalyst.jpg);
-	background-size: cover;
-  height: 300px;
-  width: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-} 
-.asideimgtxt p{
-	color: white;
-  text-align: center;
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 15px;
-}
 
 .coinwidget3{
 	float: right;
@@ -324,3 +308,8 @@ textarea {
 .button1 {
 
 }
+
+
+
+
+
