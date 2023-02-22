@@ -264,6 +264,10 @@ hr{
   color: white;
 }
 
+#clock{
+	font-weight: lighter;
+}
+
 .contact {
   max-width: 600px;
 

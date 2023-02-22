@@ -1,3 +1,7 @@
+
+alert("This page might now work fine!")
+
+
 function myAlert() {
 	alert("Sorry this page can not open!")
 }
@@ -30,6 +34,37 @@ function pulseSlide(n){
 }
 
 setInterval( pulseSlide,2000,1);
+
+function myAlertt() {
+	alert("Thank you for submitting your information to our website.")
+}
+
+var wakeuptime;
+var sleeptime;
+var dstime;
+var noon;
+
+function showCurrentTime() {
+	var Clock = document.getElementById('clock');
+	var currentTime = new Date();
+
+	var hours = currentTime.getHours();
+	var minutes = currentTime.getMinutes();
+	var  seconds = currentTime.getSeconds();
+
+	var meridian = "PM";
+
+	if(hours >= noon){
+		meridian = "AM";
+	}
+
+	var clockTime = hours + ":" + minutes + ":" + seconds + meridian;
+
+	Clock.innerText = clockTime;
+};
+
+var onSecond = 1000;
+setInterval(showCurrentTime, onSecond)
 
 
 
