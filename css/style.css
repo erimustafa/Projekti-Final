@@ -221,6 +221,11 @@ hr{
 
 }
 
+#chartwidget{
+	display: none;
+
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -307,6 +312,28 @@ textarea {
   border: none;
   margin-top: 5px;
 }
+
+#chartbtn{
+	font-family: monospace;
+	font-size: 15px;
+	background-color:#ff9100; 
+	padding: 16px;
+	padding-left: 600px;
+	padding-right: 600px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-align: center;
+  display: inline-flex;
+  margin-left: 270px;
+}
+#chartbtn:hover{
+	background-color: #0d0e21;
+  color: #ff9100;
+  font-family: monospace;
+}
+
 
 #contactbtn{
 	font-family: monospace;

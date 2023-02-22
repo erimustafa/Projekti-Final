@@ -77,3 +77,15 @@ btn.addEventListener('click', () => {
 		form.style.display = 'none';
 	}
 });
+
+const chart = document.getElementById('chartbtn');
+
+chart.addEventListener('click', () => {
+	const widget = document.getElementById('chartwidget');
+
+	if(widget.style.display === 'none'){
+		widget.style.display = 'block';
+	} else{
+		widget.style.display = 'none';
+	}
+});
