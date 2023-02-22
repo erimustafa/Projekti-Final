@@ -308,6 +308,29 @@ textarea {
   margin-top: 5px;
 }
 
+#contactbtn{
+	font-family: monospace;
+	font-size: 15px;
+	background-color:#ff9100; 
+	padding: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#contactbtn:hover {
+  background-color: #0d0e21;
+  color: #ff9100;
+  font-family: monospace;
+}
+
+#formm{
+	display: none;
+}
+
 .buttonsend {
  font-family: monospace;
 	font-size: 15px;

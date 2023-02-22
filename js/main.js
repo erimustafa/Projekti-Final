@@ -66,5 +66,14 @@ function showCurrentTime() {
 var onSecond = 1000;
 setInterval(showCurrentTime, onSecond)
 
+const btn = document.getElementById('contactbtn');
 
+btn.addEventListener('click', () => {
+	const form = document.getElementById('formm');
 
+	if(form.style.display === 'none'){
+		form.style.display = 'block';
+	} else{
+		form.style.display = 'none';
+	}
+});
