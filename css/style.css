@@ -58,6 +58,7 @@ nav ul li a{
 	color: white;
 	text-decoration: none;
 	font-size: 19px;
+	font-weight: lighter;
 }
 
 @keyframes transitionIn {
