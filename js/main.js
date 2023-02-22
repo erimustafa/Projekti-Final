@@ -39,9 +39,7 @@ function myAlertt() {
 	alert("Thank you for submitting your information to our website.")
 }
 
-var wakeuptime;
-var sleeptime;
-var dstime;
+
 var noon;
 
 function showCurrentTime() {
