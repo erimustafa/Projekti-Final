@@ -87,3 +87,5 @@ chart.addEventListener('click', () => {
 		widget.style.display = 'none';
 	}
 });
+
+
