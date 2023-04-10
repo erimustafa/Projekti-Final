@@ -1,0 +1,142 @@
+body{
+	background-color: #0d0e21;
+	 font-family: Fantasy, serif;
+	 animation: transitionIn 1s;
+}
+#section-1{
+	background-color: #0d0e21;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+}
+.coinwidget{
+	margin-left: 65px;
+	}
+.container{
+	margin-left: auto;
+	margin-right: auto; 
+	height: 100%;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	padding: 55px;
+}
+header img{
+	width: 270px;
+	height: 200px;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 14px;
+	background-color: #ff9100;
+	margin: 7px;
+	border-radius: 8px;
+} 
+nav ul li:hover{
+	background-color:#ebb852 ;
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: lighter;
+}
+.info1{
+	background-color: #0d0e21; 
+}
+.info1 a{
+	color:#ff9100 ;
+}
+.info1 a:hover{
+	color: white;
+}
+.info1:hover{
+	background-color: #ff9100;
+}
+.section2h1{
+	font-size: 70px;
+	color: white;
+	font-family: serif;
+	margin-left: 580px;
+	margin-right: auto;
+    width: 50%;
+}
+hr{
+	border: 1px solid;
+    border-color: #010140;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+.whatiscrypto{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.sec2p1{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: serif;
+	font-weight: lighter;
+}
+.section2h2{
+	font-size: 60px;
+	color: white;
+	font-family: serif;
+	margin-left: 510px;
+	margin-right: auto;
+    width: 50%;
+}
+.sec2p2{
+	color: white;
+	font-size: 30px;	
+	font-family: serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.section2h3{
+	font-size: 60px;
+	color: white;
+	font-family: serif;
+	margin-left: 650px;
+	margin-right: auto;
+    width: 50%;
+}
+.sec2p3{
+	color: white;
+	font-size: 30px;	
+	font-family: serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.section2h4{
+	font-size: 60px;
+	color: white;
+	font-family: serif;
+	margin-left: 500px;
+	margin-right: auto;
+    width: 50%;
+}
+.sec2p4{
+	color: white;
+	font-size: 30px;	
+	font-family: serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+

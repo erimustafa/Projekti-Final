@@ -1,0 +1,58 @@
+body{
+	background-color: #0d0e21;
+	 font-family: Fantasy, serif;
+	 animation: transitionIn 1s;
+}
+#section-1{
+	background-color: #0d0e21;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+}
+.coinwidget{
+	margin-left: 65px;
+	}
+.container{
+	margin-left: auto;
+	margin-right: auto; 
+	height: 100%;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	padding: 55px;
+}
+header img{
+	width: 270px;
+	height: 200px;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 14px;
+	background-color: #ff9100;
+	margin: 7px;
+	border-radius: 8px;
+} 
+nav ul li:hover{
+	background-color:#ebb852 ;
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: lighter;
+}
+.coins1{
+	background-color: #0d0e21; 
+}
+.coins1 a{
+	color:#ff9100 ;
+}
+.coins1 a:hover{
+	color: white;
+}
+.coins1:hover{
+	background-color: #ff9100;
+}
